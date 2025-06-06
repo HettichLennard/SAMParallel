@@ -1,0 +1,33 @@
+﻿  Options.cc
+  SimpSolver.cc
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\SolverTypes.h(130,59): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  (Quelldatei „SimpSolver.cc“ wird kompiliert)
+      C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\SolverTypes.h(130,59):
+      Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+  
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\Solver.h(309,30): warning C4244: "+=": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „SimpSolver.cc“ wird kompiliert)
+  
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\Solver.h(312,46): warning C4305: "*=": Verkürzung von "double" in "float"
+  (Quelldatei „SimpSolver.cc“ wird kompiliert)
+  
+  Solver.cc
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\SolverTypes.h(130,59): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  (Quelldatei „Solver.cc“ wird kompiliert)
+      C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\SolverTypes.h(130,59):
+      Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+  
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\Solver.h(309,30): warning C4244: "+=": Konvertierung von "double" in "float", möglicher Datenverlust
+  (Quelldatei „Solver.cc“ wird kompiliert)
+  
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\Solver.h(312,46): warning C4305: "*=": Verkürzung von "double" in "float"
+  (Quelldatei „Solver.cc“ wird kompiliert)
+  
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\Solver.cc(580,21): warning C4244: "Argument": Konvertierung von "__int64" in "int", möglicher Datenverlust
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\Solver.cc(846,35): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\Solver.cc(891,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  System.cc
+  Code wird generiert...
+     Bibliothek "C:\Users\lenna\source\repos\CUDA_GPU_Test_3\x64\Debug\CUDA_GPU_Test_3.lib" und Objekt "C:\Users\lenna\source\repos\CUDA_GPU_Test_3\x64\Debug\CUDA_GPU_Test_3.exp" werden erstellt.
+LINK : warning LNK4098: Standardbibliothek "LIBCMT" steht in Konflikt mit anderen Bibliotheken; /NODEFAULTLIB:Bibliothek verwenden.
+  CUDA_GPU_Test_3.vcxproj -> C:\Users\lenna\source\repos\CUDA_GPU_Test_3\x64\Debug\CUDA_GPU_Test_3.exe

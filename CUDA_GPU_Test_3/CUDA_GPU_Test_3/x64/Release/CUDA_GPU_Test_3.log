@@ -1,0 +1,126 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\include"     --keep-dir x64\Release  -maxrregcount=0    --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/Fdx64\Release\vc143.pdb" -o C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\x64\Release\kernel.cu.obj "C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\kernel.cu" 
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\Options.h(128): warning #221-D: floating-point value does not fit in required floating-point type
+        DoubleOption(const char* c, const char* n, const char* d, double def = double(), DoubleRange r = DoubleRange(-((double)((float)(1e+300))), false, ((double)((float)(1e+300))), false))
+                                                                                                                                ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\Options.h(128): warning #221-D: floating-point value does not fit in required floating-point type
+        DoubleOption(const char* c, const char* n, const char* d, double def = double(), DoubleRange r = DoubleRange(-((double)((float)(1e+300))), false, ((double)((float)(1e+300))), false))
+                                                                                                                                                                    ^
+  
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\SolverTypes.h(193): warning #68-D: integer conversion resulted in a change of sign
+    const CRef CRef_Undef = RegionAllocator<uint32_t>::Ref_Undef;
+                            ^
+  
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\kernel.cu(1289): warning #1569-D: specifiers after comma between declarations are nonstandard
+        int* dual_invalids_c, int* dual_valids_c;
+                              ^
+  
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\Options.h(128): warning #221-D: floating-point value does not fit in required floating-point type
+        DoubleOption(const char* c, const char* n, const char* d, double def = double(), DoubleRange r = DoubleRange(-((double)((float)(1e+300))), false, ((double)((float)(1e+300))), false))
+                                                                                                                                ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\Options.h(128): warning #221-D: floating-point value does not fit in required floating-point type
+        DoubleOption(const char* c, const char* n, const char* d, double def = double(), DoubleRange r = DoubleRange(-((double)((float)(1e+300))), false, ((double)((float)(1e+300))), false))
+                                                                                                                                                                    ^
+  
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\SolverTypes.h(193): warning #68-D: integer conversion resulted in a change of sign
+    const CRef CRef_Undef = RegionAllocator<uint32_t>::Ref_Undef;
+                            ^
+  
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\kernel.cu(580): warning #177-D: variable "loop_index" was declared but never referenced
+        int loop_index = 0;
+            ^
+  
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\kernel.cu(649): warning #177-D: variable "lit_j_index" was declared but never referenced
+            int clause_index, lit_i_index, lit_j_index, delta_value, delta_value_temp;
+                                           ^
+  
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\kernel.cu(649): warning #177-D: variable "delta_value_temp" was declared but never referenced
+            int clause_index, lit_i_index, lit_j_index, delta_value, delta_value_temp;
+                                                                     ^
+  
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\kernel.cu(650): warning #177-D: variable "is_j_negative" was declared but never referenced
+            bool is_i_negative, is_j_negative, is_invalid;
+                                ^
+  
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\kernel.cu(650): warning #177-D: variable "is_invalid" was declared but never referenced
+            bool is_i_negative, is_j_negative, is_invalid;
+                                               ^
+  
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\kernel.cu(651): warning #177-D: variable "value_j" was declared but never referenced
+            char value_i, value_j;
+                          ^
+  
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\kernel.cu(653): warning #177-D: variable "inter_index" was declared but never referenced
+            unsigned long long inter_index;
+                               ^
+  
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\kernel.cu(893): warning #177-D: variable "lit_value" was declared but never referenced
+            int lit_value;
+                ^
+  
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\kernel.cu(1289): warning #1569-D: specifiers after comma between declarations are nonstandard
+        int* dual_invalids_c, int* dual_valids_c;
+                              ^
+  
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\kernel.cu(1951): warning #550-D: variable "invalids_total_list" was set but never used
+        unsigned long long* invalids_total_list;
+                            ^
+  
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\kernel.cu(1995): warning #177-D: variable "inter_off_off" was declared but never referenced
+        char inter_off_off, inter_off_on, inter_on_off, inter_on_on;
+             ^
+  
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\kernel.cu(1995): warning #177-D: variable "inter_off_on" was declared but never referenced
+        char inter_off_off, inter_off_on, inter_on_off, inter_on_on;
+                            ^
+  
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\kernel.cu(1995): warning #177-D: variable "inter_on_off" was declared but never referenced
+        char inter_off_off, inter_off_on, inter_on_off, inter_on_on;
+                                          ^
+  
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\kernel.cu(1995): warning #177-D: variable "inter_on_on" was declared but never referenced
+        char inter_off_off, inter_off_on, inter_on_off, inter_on_on;
+                                                        ^
+  
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\kernel.cu(1996): warning #177-D: variable "inter_bin_encoding" was declared but never referenced
+        char inter_bin_encoding;
+             ^
+  
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\kernel.cu(1997): warning #177-D: variable "higher_value" was declared but never referenced
+        char higher_value, lower_value;
+             ^
+  
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\kernel.cu(1997): warning #177-D: variable "lower_value" was declared but never referenced
+        char higher_value, lower_value;
+                           ^
+  
+CUDACOMPILE : nvcc warning : Support for offline compilation for architectures prior to '<compute/sm/lto>_75' will be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  kernel.cu
+  tmpxft_00007658_00000000-7_kernel.cudafe1.cpp
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\SolverTypes.h(130): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\SolverTypes.h(130): note: Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\Solver.h(309): warning C4244: "+=": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\Solver.h(312): warning C4305: "*=": Verkürzung von "double" in "float"
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\kernel.cu(3541): warning C4244: "Initialisierung": Konvertierung von "unsigned __int64" in "unsigned int", möglicher Datenverlust
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\kernel.cu(1995): warning C4101: "inter_on_on": Unreferenzierte lokale Variable
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\kernel.cu(1997): warning C4101: "lower_value": Unreferenzierte lokale Variable
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\kernel.cu(1995): warning C4101: "inter_off_on": Unreferenzierte lokale Variable
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\kernel.cu(1997): warning C4101: "higher_value": Unreferenzierte lokale Variable
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\kernel.cu(1995): warning C4101: "inter_off_off": Unreferenzierte lokale Variable
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\kernel.cu(1995): warning C4101: "inter_on_off": Unreferenzierte lokale Variable
+C:\Users\lenna\source\repos\CUDA_GPU_Test_3\CUDA_GPU_Test_3\kernel.cu(1996): warning C4101: "inter_bin_encoding": Unreferenzierte lokale Variable
+     Bibliothek "C:\Users\lenna\source\repos\CUDA_GPU_Test_3\x64\Release\CUDA_GPU_Test_3.lib" und Objekt "C:\Users\lenna\source\repos\CUDA_GPU_Test_3\x64\Release\CUDA_GPU_Test_3.exp" werden erstellt.
+LINK : warning LNK4098: Standardbibliothek "LIBCMT" steht in Konflikt mit anderen Bibliotheken; /NODEFAULTLIB:Bibliothek verwenden.
+  Code wird generiert.
+  0 of 409 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Codegenerierung ist abgeschlossen.
+  CUDA_GPU_Test_3.vcxproj -> C:\Users\lenna\source\repos\CUDA_GPU_Test_3\x64\Release\CUDA_GPU_Test_3.exe
