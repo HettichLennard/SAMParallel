@@ -14,5 +14,10 @@ Implementation of the SAMParallel t-wise Interaction Sampling Approach in Visual
 - **Run SAMParallel:** Open the file *kernel.cu* in VS 2022, compile, and run it. This file contains the SAMParallel implementation and will execute the sampling process.
 
 ## Parameter Settings
+- *cnf_file_name (line 1.297):* Specifies the path to the .cnf file that describes the feature model and the file name itself.
+- *sampled_variants_size (line 1.300):* Represents the hyper-parameter *k*, i.e. the number of variant proposals generated with ContextSAT.
+- *post_optimization_samples (line 1.875):* Represents the hyper-parameter *epoch*, i.e. the number of revisited and optimized older variants in the sample during each optimization phase.
+- *optimization_epochs (line 1.877):* Represents the hyper-parameter *optimIter*, i.e. the max. number of flips per optimization call.
+- *max_retries_per_optimization (line 1.878)* and *min_retries_per_optimization (line 1.879):* Represents the upper and lower bounds of the hyper-parameter *searchBudget*. The value of *searchBudget* takes the upper bound at the beginning and decays towards the lower bound during sampling.
 
 ## Sampling Results
