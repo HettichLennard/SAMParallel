@@ -22,3 +22,4 @@ Implementation of the SAMParallel t-wise Interaction Sampling Approach in Visual
 - *parallel_tasks (line 1.886):* Depending on the used GPU, the targeted number of parallel GPU tasks may has to be lowered to ensure optimal performance!
 
 ## Sampling Results
+The caclulated sample is stored in the arrays *current_sample* (on CPU) and *current_sample_c* (on GPU). The integer *current_sample_size*, respectively *current_sample_size_c* stores the sample size.
