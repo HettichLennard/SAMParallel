@@ -19,5 +19,6 @@ Implementation of the SAMParallel t-wise Interaction Sampling Approach in Visual
 - *post_optimization_samples (line 1.875):* Represents the hyper-parameter *epoch*, i.e. the number of revisited and optimized older variants in the sample during each optimization phase.
 - *optimization_epochs (line 1.877):* Represents the hyper-parameter *optimIter*, i.e. the max. number of flips per optimization call.
 - *max_retries_per_optimization (line 1.878)* and *min_retries_per_optimization (line 1.879):* Represents the upper and lower bounds of the hyper-parameter *searchBudget*. The value of *searchBudget* takes the upper bound at the beginning and decays towards the lower bound during sampling.
+- *parallel_tasks (line 1.886):* Depending on the used GPU, the targeted number of parallel GPU tasks may has to be lowered to ensure optimal performance!
 
 ## Sampling Results
